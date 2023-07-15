@@ -19,6 +19,8 @@ public class DataTypeExamples{
         byte flags = 127;
         System.out.println("Flags is a byte data type: " + flags);
 
+
+        System.out.println("");
         // Character Data Type
         char grade = 'A';
         System.out.println("Grade is a character data type: " + grade);
