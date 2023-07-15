@@ -1,4 +1,4 @@
-public class DataTypeExamples {
+public class DataTypeExamples{
     public static void main(String[] args) {
         // Numeric Data Types
         int age = 25;
