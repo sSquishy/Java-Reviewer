@@ -29,6 +29,10 @@ public class WhileLoopsExamples {
         System.out.println("---------------------------------");
 
         int i = 1;
+        do {
+            System.out.println("Do-While loop iteration " + i);
+            i++;
+        } while (i <= 5);
     }
 
 }
