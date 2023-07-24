@@ -33,6 +33,8 @@ public class WhileLoopsExamples {
             System.out.println("Do-While loop iteration " + i);
             i++;
         } while (i <= 5);
+
+        scanner.close();
     }
 
 }
