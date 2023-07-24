@@ -28,6 +28,7 @@ public class WhileLoopsExamples {
 
         System.out.println("---------------------------------");
 
+        int i = 1;
     }
 
 }
