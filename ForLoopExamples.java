@@ -4,28 +4,31 @@ class ForLoopExamples{
     public static void main(String[] args){
         Scanner myObj = new Scanner(System.in);
 
-        //For loop
-        for (int i = 0; i < 5; i++) {
-            System.out.println(i);
-          }
-
-        //Nested Loop
-            // Outer loop
-        for (int i = 1; i <= 2; i++) {
-            System.out.println("Outer: " + i); // Executes 2 times
-            
-            // Inner loop
-            for (int j = 1; j <= 3; j++) {
-            System.out.println(" Inner: " + j); // Executes 6 times (2 * 3)
-            }
-        } 
-
-        //For-each loop
-        String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
-        
-        for (String i : cars) {
-            System.out.println(i);
-        }
+         // For loop with increment
+         System.out.println("For loop with increment:");
+         for (int i = 1; i <= 5; i++) {
+             System.out.println("Iteration " + i);
+         }
+ 
+         System.out.println("-------------------------");
+ 
+         // For loop with decrement
+         System.out.println("For loop with decrement:");
+         for (int i = 5; i >= 1; i--) {
+             System.out.println("Iteration " + i);
+         }
+ 
+         System.out.println("-------------------------");
+ 
+         // For-each loop for arrays
+         System.out.println("For-each loop for arrays:");
+         int[] numbers = {1, 2, 3, 4, 5};
+         for (int number : numbers) {
+             System.out.println("Number: " + number);
+         }
+ 
+         System.out.println("-------------------------");
+ 
     }
 
 }
