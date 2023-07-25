@@ -19,6 +19,13 @@ class ForLoopExamples{
             System.out.println(" Inner: " + j); // Executes 6 times (2 * 3)
             }
         } 
+
+        //For-each loop
+        String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+        
+        for (String i : cars) {
+            System.out.println(i);
+        }
     }
 
 }
