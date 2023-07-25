@@ -29,6 +29,18 @@ class ForLoopExamples{
  
          System.out.println("-------------------------");
  
+         // For loop with user input
+         System.out.println("For loop with user input:");
+         int n;
+         System.out.print("Enter the value of n: ");
+         n = myObj.nextInt();
+         int factorial = 1;
+         for (int i = 1; i <= n; i++) {
+             factorial *= i;
+         }
+         System.out.println("Factorial of " + n + " is: " + factorial);
+
+         myObj.close();
     }
 
 }
