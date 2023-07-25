@@ -31,7 +31,7 @@ class ForLoopExamples{
  
          // For loop with user input
          System.out.println("For loop with user input:");
-         int n;
+         long n;
          System.out.print("Enter the value of n: ");
          n = myObj.nextInt();
          int factorial = 1;
