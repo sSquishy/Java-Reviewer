@@ -30,5 +30,12 @@ public class ArrayExample {
             System.out.println("Element at index " + i + ": " + numbers[i]);
         }
         System.out.println("-------------------------");
+
+        // Example 6: Enhanced For Loop (For-each Loop)
+        System.out.println("Example 6: Enhanced For Loop (For-each Loop)");
+        System.out.println("Numbers array elements using enhanced for loop:");
+        for (int num : numbers) {
+            System.out.println("Element: " + num);
+        }
     }
 }
