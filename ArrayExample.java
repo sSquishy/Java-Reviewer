@@ -7,5 +7,9 @@ public class ArrayExample {
         System.out.println("Numbers array: " + Arrays.toString(numbers));
         System.out.println("-------------------------");
 
+        // Example 2: Accessing Array Elements
+        System.out.println("Example 2: Accessing Array Elements");
+        System.out.println("Second element: " + numbers[1]);
+        System.out.println("-------------------------");
     }
 }
