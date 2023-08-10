@@ -18,5 +18,9 @@ public class ArrayExample {
         System.out.println("Numbers array after modification: " + Arrays.toString(numbers));
         System.out.println("-------------------------");
 
+        // Example 4: Array Length
+        System.out.println("Example 4: Array Length");
+        System.out.println("Length of numbers array: " + numbers.length);
+        System.out.println("-------------------------");
     }
 }
