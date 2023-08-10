@@ -11,5 +11,12 @@ public class ArrayExample {
         System.out.println("Example 2: Accessing Array Elements");
         System.out.println("Second element: " + numbers[1]);
         System.out.println("-------------------------");
+
+        // Example 3: Modifying Array Elements
+        numbers[3] = 7;
+        System.out.println("Example 3: Modifying Array Elements");
+        System.out.println("Numbers array after modification: " + Arrays.toString(numbers));
+        System.out.println("-------------------------");
+
     }
 }
