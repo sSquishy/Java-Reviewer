@@ -22,5 +22,13 @@ public class ArrayExample {
         System.out.println("Example 4: Array Length");
         System.out.println("Length of numbers array: " + numbers.length);
         System.out.println("-------------------------");
+
+        // Example 5: Looping through an Array
+        System.out.println("Example 5: Looping through an Array");
+        System.out.println("Numbers array elements:");
+        for (int i = 0; i < numbers.length; i++) {
+            System.out.println("Element at index " + i + ": " + numbers[i]);
+        }
+        System.out.println("-------------------------");
     }
 }
