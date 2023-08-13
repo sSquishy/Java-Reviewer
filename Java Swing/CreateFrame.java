@@ -11,7 +11,9 @@ class CreateFrame{
         // Set the title of the frame
         frame.setTitle("Create JFrame Example");
         
+        // Center the frame on the screen
         frame.setLocationRelativeTo(null);
+        
         
         frame.setVisible(true);
     }
