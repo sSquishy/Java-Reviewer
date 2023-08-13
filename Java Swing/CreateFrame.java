@@ -5,6 +5,7 @@ class CreateFrame{
         // Create a JFrame instance
         JFrame frame = new JFrame();
 
+        // Set the size of the frame
         frame.setSize(550,500);
         
         frame.setTitle("Create JFrame Example");
