@@ -8,6 +8,7 @@ class CreateFrame{
         // Set the size of the frame
         frame.setSize(550,500);
         
+        // Set the title of the frame
         frame.setTitle("Create JFrame Example");
         
         frame.setLocationRelativeTo(null);
