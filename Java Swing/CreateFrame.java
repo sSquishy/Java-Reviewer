@@ -14,7 +14,7 @@ class CreateFrame{
         // Center the frame on the screen
         frame.setLocationRelativeTo(null);
         
-        
+        // Make the frame visible
         frame.setVisible(true);
     }
 }
